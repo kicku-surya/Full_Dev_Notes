@@ -1,0 +1,73 @@
+Python Session 1
+=======================================================================
+
+# Script to print statements
+print("Hello Python")
+print('How r u')
+print("Let's go for lunch")
+print('He said,"I am busy today"')
+print('He said,"Let\'s go for lunch"')
+print("He said,\"Let's go for lunch\"")
+
+======================================================================
+Single line comments start with #
+
+Multiple line comments can start with '''  and end with '''
+(or) start """ and end with """
+
+=========================================================================
+#Adddition and Concatination
+print(2+5)
+print("Hello"+"Python")
+print("Hi"+"5")
+print("hi"+str(5))
+print("8"+"5")
+print("8"+str(5))
+print(int("8")+5)
+print("Hello","Python")
+print("Hi",5)
+
+===============================================
+=======================================================================
+
+#if conditions
+#Program to find the smallest of 3 numbers
+a = 10
+b = 20
+c= 5
+if a < b and a < c:
+    print("a is the smallest ")
+elif b < c:
+    print("b is the smallest")
+else:
+    print("c is the smallest")
+print("Program finished")
+
+========================================================================
+Loops
+=================
+#Program to display the even numbers between 1-10
+i = 2
+while i <= 10:
+    print(i)
+    i = i + 2
+
+==========================================================================
+#Program to display the 2 tables
+i = 1
+while i <= 10:
+    print(2,"*",i,"=",2*i)
+    i = i + 1
+
+=========================================================================
+#Program to display all 10 tables
+
+i = 1
+while i <= 10:
+    j = 1
+    while j <= 10:
+        print(i,"*",j,"=",i*j)
+        j = j + 1
+    i = i + 1
+
+============================================
